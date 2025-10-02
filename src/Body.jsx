@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 const Body = () => {
   return (
-    <div>
+    <div className="flex h-screen flex-col justify-between">
       <Navbar/>
       <Outlet/>
       <Footer/>
